@@ -21,3 +21,10 @@ h1 {
   margin: 16px auto;
   max-width: 400px;
 }
+.demoGlobal {
+  background: #1c1917;
+  color: #fef3c7;
+  border: 3px dashed #dc2626;
+  border-radius: 12px;
+  padding: 16px;
+}

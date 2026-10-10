@@ -1,0 +1,40 @@
+﻿.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 24px;
+  background: #7c2d12;
+}
+
+.marca {
+  color: #fef3c7;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tab {
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  background: transparent;
+  color: #fef3c7;
+}
+
+.tab:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.activa {
+  background: #fef3c7;
+  color: #7c2d12;
+}

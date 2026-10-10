@@ -1,0 +1,23 @@
+﻿.pagina {
+  max-width: 1000px;
+  margin: 24px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.titulo {
+  margin: 0;
+  color: #7c2d12;
+}
+
+.sub {
+  margin: 4px 0 16px;
+  color: #78716c;
+}
+
+.contenido {
+  display: grid;
+  gap: 16px;
+}

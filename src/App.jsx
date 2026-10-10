@@ -1,19 +1,31 @@
-﻿import Dashboard from './components/Dashboard'
-import MetricCard from './components/MetricCard'
-import { metricas } from './data/lugares'
+﻿import { useState } from 'react'
+import Navbar from './components/Navbar'
+import Panel from './pages/Panel'
+import Componentes from './pages/Componentes'
+import Estilado from './pages/Estilado'
+import Csr from './pages/Csr'
+
+const secciones = [
+  { id: 'panel', texto: '📊 Panel' },
+  { id: 'componentes', texto: '🧩 Componentes' },
+  { id: 'estilado', texto: '🎨 Estilado' },
+  { id: 'csr', texto: '⚡ CSR' },
+]
+
+const vistas = { panel: Panel, componentes: Componentes, estilado: Estilado, csr: Csr }
 
 function App() {
+  const [activa, setActiva] = useState('panel')
+  const Vista = vistas[activa]
+
   return (
-    <main>
+    <>
       <h1>🏔️ Huancayo Explorer</h1>
-      <Dashboard titulo="Huancayo en cifras">
-        {metricas.map((m) => (
-          <MetricCard key={m.id} icono={m.icono} titulo={m.titulo} valor={m.valor} unidad={m.unidad}>
-            {m.nota && <small>{m.nota}</small>}
-          </MetricCard>
-        ))}
-      </Dashboard>
-    </main>
+      <Navbar secciones={secciones} activa={activa} onCambiar={setActiva} />
+      <main>
+        <Vista />
+      </main>
+    </>
   )
 }
 

@@ -1,0 +1,20 @@
+﻿.bloque {
+  background: #1c1917;
+  border-radius: 12px;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+.titulo {
+  margin: 0 0 8px;
+  color: #fcd34d;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.codigo {
+  margin: 0;
+  color: #fef3c7;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
