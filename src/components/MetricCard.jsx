@@ -1,5 +1,7 @@
 ﻿import styles from './MetricCard.module.css'
 
+const base = import.meta.env.BASE_URL
+
 /**
  * Tarjeta que muestra una métrica turística.
  * @param {Object} props
@@ -13,7 +15,14 @@
 function MetricCard({ icono, titulo, valor, unidad, imagen, children }) {
   return (
     <article className={styles.card}>
-      {imagen && <img className={styles.imagen} src={imagen} alt={titulo} loading="lazy" />}
+      {imagen && (
+        <img
+          className={styles.imagen}
+          src={`${base}${imagen.replace(/^\//, '')}`}
+          alt={titulo}
+          loading="lazy"
+        />
+      )}
       <div className={styles.cuerpo}>
         <span className={styles.icono}>{icono}</span>
         <h3 className={styles.titulo}>{titulo}</h3>
