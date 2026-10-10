@@ -56,10 +56,11 @@ Cada `push` a la rama `main` publica automáticamente la web en GitHub Pages med
 
 ## 📝 Notas
 
-- Las distancias y los precios son referenciales.
+- Altitud, clima y distancias (medidas desde la Plaza Constitución) son aproximados y provienen de consulta a fuentes locales (SENAMHI e IGP). Los precios son rangos de mercado, no oficiales.
 - Fotografías: [indicar autor o fuente].
 
 ## 👤 Autor
 
 **Steven Huamanlazo Pariona**
 Programa de Ingeniería de Sistemas · UNCP
+

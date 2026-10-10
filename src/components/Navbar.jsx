@@ -10,7 +10,7 @@
 function Navbar({ secciones, activa, onCambiar }) {
   return (
     <nav className={styles.nav}>
-      <span className={styles.marca}>🏔️ Mi Dashboard</span>
+      <span className={styles.marca}>🏔️ Huancayo Explorer</span>
       <div className={styles.tabs}>
         {secciones.map((s) => (
           <button
@@ -27,3 +27,4 @@ function Navbar({ secciones, activa, onCambiar }) {
 }
 
 export default Navbar
+

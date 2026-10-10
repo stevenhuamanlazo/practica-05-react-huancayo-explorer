@@ -7,7 +7,7 @@ const base = import.meta.env.BASE_URL
  * @param {Object} props
  * @param {string} props.icono - Emoji de la métrica
  * @param {string} props.titulo - Nombre de la métrica
- * @param {number} props.valor - Valor numérico
+ * @param {number|string} props.valor - Valor numérico
  * @param {string} props.unidad - Unidad de medida
  * @param {string} [props.imagen] - Ruta de una imagen opcional (carpeta public)
  * @param {React.ReactNode} [props.children] - Contenido anidado opcional
@@ -36,3 +36,4 @@ function MetricCard({ icono, titulo, valor, unidad, imagen, children }) {
 }
 
 export default MetricCard
+
