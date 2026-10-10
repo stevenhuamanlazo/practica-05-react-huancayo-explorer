@@ -10,3 +10,14 @@ h1 {
   color: #7c2d12;
   padding-top: 24px;
 }
+
+/* Demostración de colisión: .card global NO afecta a MetricCard,
+   porque CSS Modules renombra su clase con un hash único. */
+.card {
+  background: #1c1917;
+  color: #fef3c7;
+  border: 4px dashed #dc2626;
+  padding: 12px;
+  margin: 16px auto;
+  max-width: 400px;
+}
