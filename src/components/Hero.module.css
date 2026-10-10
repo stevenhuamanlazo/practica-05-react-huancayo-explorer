@@ -1,8 +1,9 @@
 ﻿.hero {
-  padding: 56px 24px 72px;
+  padding: 56px 24px 130px;
   text-align: center;
   color: #ffffff;
   background:
+    url('/img/montanas.svg') bottom / 100% 110px no-repeat,
     radial-gradient(circle at 20% 20%, rgba(245, 158, 11, 0.35), transparent 45%),
     linear-gradient(135deg, #431407 0%, #9a3412 55%, #d97706 100%);
 }

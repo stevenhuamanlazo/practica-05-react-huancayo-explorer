@@ -6,13 +6,13 @@
 ]
 
 export const lugares = [
-  { id: 1, icono: '🏞️', nombre: 'Torre Torre', distanciaKm: 3, descripcion: 'Formaciones rocosas con mirador sobre la ciudad.', actividades: ['Caminata', 'Fotografía', 'Mirador'] },
-  { id: 2, icono: '⛪', nombre: 'Convento de Ocopa', distanciaKm: 25, descripcion: 'Convento franciscano con biblioteca y museo.', actividades: ['Visita guiada', 'Museo', 'Biblioteca'] },
-  { id: 3, icono: '🌊', nombre: 'Laguna de Paca', distanciaKm: 50, descripcion: 'Laguna rodeada de restaurantes y paseos en bote.', actividades: ['Paseo en bote', 'Gastronomía', 'Descanso'] },
+  { id: 1, icono: '🏞️', nombre: 'Torre Torre', distanciaKm: 3, imagen: '/img/torre-torre.svg', descripcion: 'Formaciones rocosas con mirador sobre la ciudad.', actividades: ['Caminata', 'Fotografía', 'Mirador'] },
+  { id: 2, icono: '⛪', nombre: 'Convento de Ocopa', distanciaKm: 25, imagen: '/img/convento-ocopa.svg', descripcion: 'Convento franciscano con biblioteca y museo.', actividades: ['Visita guiada', 'Museo', 'Biblioteca'] },
+  { id: 3, icono: '🌊', nombre: 'Laguna de Paca', distanciaKm: 50, imagen: '/img/laguna-paca.svg', descripcion: 'Laguna rodeada de restaurantes y paseos en bote.', actividades: ['Paseo en bote', 'Gastronomía', 'Descanso'] },
 ]
 
 export const platos = [
-  { id: 1, icono: '🥔', nombre: 'Papa a la huancaína', precio: 12, descripcion: 'Papas con crema de ají amarillo y queso.', ingredientes: ['Papa', 'Ají amarillo', 'Queso fresco'] },
-  { id: 2, icono: '🍖', nombre: 'Pachamanca', precio: 35, descripcion: 'Carnes y tubérculos cocidos bajo tierra con piedras calientes.', ingredientes: ['Carnes', 'Papa', 'Habas', 'Hierbas'] },
-  { id: 3, icono: '🍲', nombre: 'Cuy colorado', precio: 40, descripcion: 'Cuy en salsa de ají panca y maní.', ingredientes: ['Cuy', 'Ají panca', 'Maní'] },
+  { id: 1, icono: '🥔', nombre: 'Papa a la huancaína', precio: 12, imagen: '/img/papa-huancaina.svg', descripcion: 'Papas con crema de ají amarillo y queso.', ingredientes: ['Papa', 'Ají amarillo', 'Queso fresco'] },
+  { id: 2, icono: '🍖', nombre: 'Pachamanca', precio: 35, imagen: '/img/pachamanca.svg', descripcion: 'Carnes y tubérculos cocidos bajo tierra con piedras calientes.', ingredientes: ['Carnes', 'Papa', 'Habas', 'Hierbas'] },
+  { id: 3, icono: '🍲', nombre: 'Cuy colorado', precio: 40, imagen: '/img/cuy-colorado.svg', descripcion: 'Cuy en salsa de ají panca y maní.', ingredientes: ['Cuy', 'Ají panca', 'Maní'] },
 ]
