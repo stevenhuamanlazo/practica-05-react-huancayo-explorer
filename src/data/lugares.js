@@ -5,13 +5,12 @@
 ]
 
 export const platos = [
-  { id: 1, icono: '🥔', nombre: 'Papa a la huancaína', precio: '25–55', imagen: '/img/papa-huancaina.jpg', descripcion: 'Papas con crema de ají amarillo y queso.', ingredientes: ['Papa', 'Ají amarillo', 'Queso fresco'] },
-  { id: 2, icono: '🍖', nombre: 'Pachamanca', precio: '45–70', imagen: '/img/pachamanca.jpg', descripcion: 'Carnes y tubérculos cocidos bajo tierra con piedras calientes.', ingredientes: ['Carnes', 'Papa', 'Habas', 'Hierbas'] },
-  { id: 3, icono: '🍲', nombre: 'Cuy colorado', precio: '45–70', imagen: '/img/cuy-colorado.jpg', descripcion: 'Cuy en salsa de ají panca y maní.', ingredientes: ['Cuy', 'Ají panca', 'Maní'] },
-  { id: 4, icono: '🥣', nombre: 'Patasca', precio: '25–55', descripcion: 'Caldo de mondongo, plato tradicional del valle.', ingredientes: ['Mondongo', 'Mote'] },
-  { id: 5, icono: '🍛', nombre: 'Yawar picante', precio: '25–55', descripcion: 'Plato tradicional del valle del Mantaro.', ingredientes: [] },
-  { id: 6, icono: '🍖', nombre: 'Carnero al palo', precio: '25–55', descripcion: 'Preparación tradicional de carnero.', ingredientes: [] },
-  { id: 7, icono: '🐟', nombre: 'Trucha frita', precio: '25–55', descripcion: 'Trucha frita o en chicharrón.', ingredientes: ['Trucha'] },
+  { id: 1, icono: '🥔', nombre: 'Papa a la huancaína', precio: 12, imagen: '/img/papa-huancaina.jpg', descripcion: 'Papas con crema de ají amarillo y queso.', ingredientes: ['Papa', 'Ají amarillo', 'Queso fresco'] },
+  { id: 2, icono: '🍖', nombre: 'Pachamanca', precio: 22, imagen: '/img/pachamanca.jpg', descripcion: 'Carnes y tubérculos cocidos bajo tierra con piedras calientes.', ingredientes: ['Carnes', 'Papa', 'Habas', 'Hierbas'] },
+  { id: 3, icono: '🍲', nombre: 'Cuy colorado', precio: 22, imagen: '/img/cuy-colorado.jpg', descripcion: 'Cuy en salsa de ají panca y maní.', ingredientes: ['Cuy', 'Ají panca', 'Maní'] },
+  { id: 4, icono: '🥣', nombre: 'Patasca', precio: 12, imagen: '/img/patasca.jpg', descripcion: 'Caldo de mondongo con mote, plato tradicional del valle.', ingredientes: ['Mondongo', 'Mote', 'Carne'] },
+  { id: 5, icono: '🍖', nombre: 'Carnero al palo', precio: 20, imagen: '/img/carnero-al-palo.jpg', descripcion: 'Carnero preparado al palo, servido con papa y choclo.', ingredientes: ['Carnero', 'Papa', 'Choclo'] },
+  { id: 6, icono: '🐟', nombre: 'Trucha frita', precio: 18, imagen: '/img/trucha-frita.jpg', descripcion: 'Trucha frita con arroz, papa, choclo y ensalada criolla.', ingredientes: ['Trucha', 'Arroz', 'Papa', 'Choclo'] },
 ]
 
 export const metricas = [
@@ -22,3 +21,4 @@ export const metricas = [
   { id: 5, icono: '📍', titulo: 'Lugares destacados', valor: lugares.length, unidad: 'sitios' },
   { id: 6, icono: '🍲', titulo: 'Platos emblemáticos', valor: platos.length, unidad: 'platos' },
 ]
+
