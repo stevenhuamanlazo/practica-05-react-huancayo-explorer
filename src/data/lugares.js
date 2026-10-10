@@ -1,6 +1,6 @@
 ﻿export const lugares = [
   { id: 1, icono: '🏞️', nombre: 'Torre Torre', distanciaKm: 3.4, imagen: '/img/torre-torre.jpg', descripcion: 'Formaciones rocosas con mirador sobre la ciudad. En línea recta está a unos 3 km.', actividades: ['Caminata', 'Fotografía', 'Mirador'] },
-  { id: 2, icono: '⛪', nombre: 'Convento de Ocopa', distanciaKm: '23–24', imagen: '/img/convento-ocopa.jpg', descripcion: 'Convento franciscano en Concepción, con biblioteca y museo. Unos 35 a 45 minutos en colectivo o auto.', actividades: ['Visita guiada', 'Museo', 'Biblioteca'] },
+  { id: 2, icono: '⛪', nombre: 'Convento de Ocopa', distanciaKm: 24, imagen: '/img/convento-ocopa.jpg', descripcion: 'Convento franciscano en Concepción, con biblioteca y museo. Unos 35 a 45 minutos en colectivo o auto.', actividades: ['Visita guiada', 'Museo', 'Biblioteca'] },
   { id: 3, icono: '🌊', nombre: 'Laguna de Paca', distanciaKm: 40, imagen: '/img/laguna-paca.jpg', descripcion: 'Laguna en Jauja rodeada de restaurantes y paseos en bote. Aproximadamente 1 hora a 1 hora y 15 minutos en colectivo o auto.', actividades: ['Paseo en bote', 'Gastronomía', 'Descanso'] },
 ]
 
@@ -21,5 +21,6 @@ export const metricas = [
   { id: 5, icono: '📍', titulo: 'Lugares destacados', valor: lugares.length, unidad: 'sitios' },
   { id: 6, icono: '🍲', titulo: 'Platos emblemáticos', valor: platos.length, unidad: 'platos' },
 ]
+
 
 
