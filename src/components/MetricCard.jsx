@@ -1,3 +1,5 @@
+import styles from './MetricCard.module.css'
+
 /**
  * Tarjeta que muestra una métrica turística.
  * @param {Object} props
@@ -9,13 +11,13 @@
  */
 function MetricCard({ icono, titulo, valor, unidad, children }) {
   return (
-    <article>
-      <span>{icono}</span>
-      <h3>{titulo}</h3>
-      <p>
+    <article className={styles.card}>
+      <span className={styles.icono}>{icono}</span>
+      <h3 className={styles.titulo}>{titulo}</h3>
+      <p className={styles.valor}>
         <strong>{valor}</strong> {unidad}
       </p>
-      {children}
+      <div className={styles.nota}>{children}</div>
     </article>
   )
 }

@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(180deg, #fef3c7, #ecfccb);
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #7c2d12;
+  padding-top: 24px;
+}
