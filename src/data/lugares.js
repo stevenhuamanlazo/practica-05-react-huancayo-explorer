@@ -1,26 +1,6 @@
-export const lugares = [
-  {
-    id: 1,
-    icono: '🏞️',
-    nombre: 'Torre Torre',
-    distanciaKm: 3,
-    descripcion: 'Formaciones rocosas con mirador sobre la ciudad.',
-    actividades: ['Caminata', 'Fotografía', 'Mirador'],
-  },
-  {
-    id: 2,
-    icono: '⛪',
-    nombre: 'Convento de Ocopa',
-    distanciaKm: 25,
-    descripcion: 'Convento franciscano con biblioteca y museo.',
-    actividades: ['Visita guiada', 'Museo', 'Biblioteca'],
-  },
-  {
-    id: 3,
-    icono: '🌊',
-    nombre: 'Laguna de Paca',
-    distanciaKm: 50,
-    descripcion: 'Laguna rodeada de restaurantes y paseos en bote.',
-    actividades: ['Paseo en bote', 'Gastronomía', 'Descanso'],
-  },
+﻿export const metricas = [
+  { id: 1, icono: '⛰️', titulo: 'Altitud', valor: 3259, unidad: 'msnm', nota: 'Una de las ciudades más altas del Perú' },
+  { id: 2, icono: '📍', titulo: 'Lugares turísticos', valor: 12, unidad: 'sitios' },
+  { id: 3, icono: '🍲', titulo: 'Platos típicos', valor: 8, unidad: 'platos' },
+  { id: 4, icono: '🌡️', titulo: 'Temperatura media', valor: 12, unidad: '°C' },
 ]
