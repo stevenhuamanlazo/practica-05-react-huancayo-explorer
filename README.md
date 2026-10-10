@@ -1,4 +1,4 @@
-﻿# 🏔️ Huancayo Explorer
+# 🏔️ Huancayo Explorer
 
 Panel turístico de la ciudad de **Huancayo** (3 259 msnm) hecho con **React + Vite**.
 Práctica 05 · Desarrollo de Aplicaciones Web (IS093A) · Universidad Nacional del Centro del Perú.
